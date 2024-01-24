@@ -4,6 +4,7 @@
 body {
     margin: 0;
     font-family: Roboto;
+    background-color: #F3F4F6;
 }
 
 .login {
@@ -18,9 +19,10 @@ body {
     height: 500px;
 }
 
-
+/* Form Left Side */
 .login .box.form {
-    background-color: red;
+    background-color: #fff;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.35);
 }
 
 
@@ -58,4 +60,5 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(79, 70, 229, 0.35);
+    box-shadow: 0 0 40px 0 rgba(79, 70, 229, 0.35);
 }
